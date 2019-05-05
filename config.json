@@ -1,0 +1,31 @@
+{
+  "name":"Webhooks",
+  "author":"DarkScientist_",
+  "version":"0.0.1",
+  "useEvents":true,
+  "admin_menus": {
+   "GLOBAL__CUSTOMIZE": {
+      "Webhooks": {
+        "index": 1,
+        "icon": "bell",
+        "menu": {
+          "Gérer les webhooks": {
+            "icon": "bell",
+            "permission": "WEBHOOKS__ADMIN_MANAGE_HOOKS",
+            "route": "/admin/webhooks"
+        }
+      }
+    }
+  }
+},
+  "permissions" : {
+    "available" : [],
+    "default" : {
+      "0" : [],
+      "2" : []
+    }
+},
+"requirements" : {
+  "CMS" : "1.7.0"
+  }
+}
